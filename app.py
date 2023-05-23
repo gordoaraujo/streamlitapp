@@ -34,8 +34,7 @@ mpg_df_raw = load_data(path="data/mpg.csv")
 mpg_df = deepcopy(mpg_df_raw)
 
 # Add title and header
-st.title("Introduction to Streamlit")
-st.header("MPG Data Exploration")
+st.title("MPG Data Exploration")
 
 # Widgets: checkbox (you can replace st.xx with st.sidebar.xx)
 if st.checkbox("Show Dataframe"):
